@@ -11,7 +11,7 @@ namespace UploadImageApp.Models
     public static class AzureStorageModel
     {
         //String Connection k Azure Storage
-        public static string storageConnection = "DefaultEndpointsProtocol=https;AccountName=dohnystorage;AccountKey=VdTRKWFXd6W6ojykXPxBPELaPbz85nBGuoW6oWWfvFDWwtjSS2JT5+nB1L3jNL7bi1y4B7VsYHz/3lA6kNpuWA==;EndpointSuffix=core.windows.net";
+        public static string storageConnection = ""; //Doplnit při testování
 
         //Metoda pro ziskani reference na container v Azure Storage
         //Dokumentace Azure Storage odkaz: https://docs.microsoft.com/en-us/xamarin/xamarin-forms/data-cloud/azure-services/azure-storage
